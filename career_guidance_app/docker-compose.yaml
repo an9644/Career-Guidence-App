@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongoddb
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo_volume:/data/db
+  api:
+    image: api
+    depends_on:
+      - mongodb
+    build: 
+      context: Server
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
+
+  ui:
+    image: ui
+    depends_on:
+      - api
+    build:
+      context: UI
+      dockerfile: ./Dockerfile
+    ports:
+      - 4040:4040
+
+volumes:
+  mongo_volume:
