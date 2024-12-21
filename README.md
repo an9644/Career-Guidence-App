@@ -21,7 +21,7 @@ To get started with the  *Career Guidnace App*, follow these steps:
       git clone git@github.com:an9644/GetCertificate-App.git
       ```
 🔧 Running Setup
- 
+
    * In first terminal,
    
    1. Install dependencies in server(backend) folder:
@@ -48,7 +48,8 @@ To get started with the  *Career Guidnace App*, follow these steps:
    ---
       
  🔑 Key Features
- 
--*Result Retrieval*: Students can easily search and retrieve their results using their ID. <br>
--*Certificate Issuance*: Admins can issue certificates with student details.<br>
--*User Management*: Students can sign up and log in to access their results.<br>
+
+ -*User Management*: Students can sign up and log and book live session .user can also see other jobs,courses etc.<br>
+-*Admin Management *: Admin is the one adding new councilers ,jobs and courses. <br>
+-*Admin*: Admin can update their profile and add another admin,admin can also delete user and other details
+-*user*: user can also update their profile with their all education and qualification details.<br>
