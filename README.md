@@ -1,5 +1,5 @@
 # 💫🏅 Career Guidance App
-<br><br>Career Guidance App is app that students will get a personalized career guidance from career councilers .live interaction section .<br><br>🎯 Objective<br><br>In this project they use latest technologies and they make the project more esiar .<br><br>🛠️ Built With<br>-Frontend : HTML, Tailwind, JavaScript, React, CSS<br>-Backend : Node.js, Express.js, MongoDB, Mongoose<br>-Tools: Docker<br><br>✨File Structure<br><br>- server: Backend server configuration and models .<br>- ui: Frontend user interface files for a seamless reservation experience.<br>-docker-composer: Docker file it will help in muli-containazation.
+<br><br>Career Guidance App is app that students will get a personalized career guidance from career councilers .live interaction section .<br><br>🎯 Objective<br><br>In this project they use latest technologies and they make the project more esiar .<br><br>🛠️ Built With<br>-Frontend : HTML, Tailwind, JavaScript, React, CSS<br>-Backend : Node.js, Express.js, MongoDB, Mongoose<br>-Tools: Docker<br><br>✨File Structure<br><br>- server: Backend server configuration and models .<br>- ui: Frontend user interface files for a seamless reservation experience.<br>-docker-composer: Docker file it will help in muli-containerization.
 
 
 # 💻 Tech Stack:
